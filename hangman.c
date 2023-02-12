@@ -16,7 +16,7 @@ int getRandomWord()
     int len,index,n;
     printf("Enter the number of words to play HANGMAN: ");
     scanf("%d",&n);
-    printf("Enter %d words:\n",n);
+    printf("\nEnter %d words:\n",n);
     for(int i=0;i<n;i++)
     {   
         scanf("%s",wordlist[i].word);
@@ -68,6 +68,7 @@ void stickFigure(int index)
         case 5: printf("\n    +---+\n    |   |\n    O   |\n   /|\\  |\n   /    |\n        |\n  =========\n");
                 break;
         case 6: printf("\n    +---+\n    |   |\n    O   |\n   /|\\  |\n   / \\  |\n        |\n  =========\n");
+                printf("\nTHE WORD WAS : %s\n\n",wordlist[index].word);
                 printf("\n********************************************\n");
                 printf("******************GAME OVER*****************\n");
                 printf("********************************************\n");
