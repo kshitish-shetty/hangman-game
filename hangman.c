@@ -21,7 +21,7 @@ int getRandomWord ()
   for (int i = 0; i < n; i++)
     {
       scanf ("%s", wordlist[i].word);
-      len = strlen (wordlist[i].word);	// TO CHECK IF ALL THE WORDS ARE ALPHABETS
+      len = strlen (wordlist[i].word);	
       for (int j = 0; j < len; j++)
 	{
 	  if (!isalpha (wordlist[i].word[j]))
