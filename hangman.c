@@ -94,7 +94,7 @@ int displayWord(int index)
         }
         flag=0;
         printf("_ ");
-        label:
+        label: continue;
     }
     printf("\n");
     if(flag)
