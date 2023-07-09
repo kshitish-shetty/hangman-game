@@ -71,6 +71,7 @@
     grogginess
     haiku
     haphazard
+    hangman
     hyphen
     iatrogenic
     icebox
